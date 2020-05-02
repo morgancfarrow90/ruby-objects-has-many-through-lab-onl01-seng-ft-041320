@@ -19,6 +19,7 @@ def songs
 end
 
 def artists 
-  Song.map |song|
+  Song.map do |song|
+  Song.genre == self
   
 end
