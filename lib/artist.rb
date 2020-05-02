@@ -21,8 +21,7 @@ end
 def songs 
   Songs.all.select do |song| 
     Song.artist == self 
-    end 
-    songs
+    end
 end
 
 def genres 
