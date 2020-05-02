@@ -15,11 +15,4 @@ def self.all
   @@all
 end
 
-def genre
-  @genre
-end
-
-def artist
-  @artist
-end
 end
