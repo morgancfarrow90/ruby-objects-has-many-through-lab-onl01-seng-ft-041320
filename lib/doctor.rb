@@ -9,6 +9,9 @@ def initialize(name)
   @@all << self
 end
 
+def appointments
+  Appointments.all.select do |appointment|
+    
 
   
 end
