@@ -11,6 +11,6 @@ def self.all
   @@all
 end
 
-def has_and_belongs_to_many
+def songs 
   
 end
