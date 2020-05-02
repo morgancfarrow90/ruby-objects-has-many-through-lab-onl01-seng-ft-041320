@@ -17,5 +17,8 @@ def songs
   end
   songs
 end
+
+def artists 
+  self.songs.map |song|
   
 end
