@@ -16,7 +16,7 @@ def self.all
 end
 
 def genre
-  
+  @genre
 end
 
 
