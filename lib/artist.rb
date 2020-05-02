@@ -25,7 +25,7 @@ def songs
 end
 
 def genres 
-  Songs.map do |song| 
+  Songs.all.map do |song| 
    song.genre
  end 
  genres 
