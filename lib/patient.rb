@@ -15,5 +15,14 @@ end
 def self.all
   @@all
 end
+
+def appointments
+  Appointments.all.select do |appointment|
+    appointment.patient == self
+  end
+end
+
+def doctors
+  appointments.map do |
   
 end
